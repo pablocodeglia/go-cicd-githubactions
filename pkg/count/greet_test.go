@@ -3,7 +3,7 @@ package greet
 import "testing"
 
 func TestGreet(t *testing.T) {
-	want := "Hey"
+	want := "Hey there!"
 	got := SayHi()
 
 	if got != want {
